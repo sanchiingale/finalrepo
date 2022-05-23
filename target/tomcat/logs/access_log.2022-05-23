@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [23/May/2022:15:34:11 +0530] "GET /myproject1 HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [23/May/2022:15:34:13 +0530] "GET /myproject1/ HTTP/1.1" 200 52 http-bio-8080-exec-3 1743
+0:0:0:0:0:0:0:1 - - [23/May/2022:15:34:13 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
