@@ -45,8 +45,8 @@ jobs:
 
       - name: Docker build and Push
         run: |
-            docker build . -t san0802containerregi08.azurecr.io/image1:latest
-            docker push  san0802containerregi08.azurecr.io/image1:latest
+            docker build . -t san0802containerregi08.azurecr.io/image01:latest
+            docker push  san0802containerregi08.azurecr.io/image01:latest
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
