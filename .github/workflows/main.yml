@@ -41,12 +41,12 @@ jobs:
         with:
           login-server: san0802containerregi08.azurecr.io
           username: san0802containerregi08
-          password: ZgUuCUBd/Y7uQIC3mkgCBe6y1SOvejY1
+          password: c5+rJ6DTEWnN2fS7mB1s16P3tpSWv72d
 
       - name: Docker build and Push
         run: |
-            docker build . -t san0802containerregi08.azurecr.io/image01:latest
-            docker push  san0802containerregi08.azurecr.io/image01:latest
+            docker build . -t san0802containerregi08.azurecr.io/dockerimag:latest
+            docker push  san0802containerregi08.azurecr.io/dockerimag:latest
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
