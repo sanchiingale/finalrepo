@@ -47,6 +47,9 @@ jobs:
         run: |
             docker build . -t sanchicontain.azurecr.io/dockerimag:latest
             docker push  sanchicontain.azurecr.io/dockerimag:latest
+      - name: Azure login
+#         run: |
+#             az login -u sanchisudarshaningale02@gmail.com -p sanchiingale08
       - uses: azure/webapps-deploy@v2
         with:
           app-name: 'javaapp08'
