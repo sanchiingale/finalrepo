@@ -4,6 +4,7 @@
 # EXPOSE 8080
 # ENTRYPOINT ["java","-jar","/app.jar"]
 
-FROM tomcat
-COPY ROOT.war ./usr/local/tomcat/webapps/
-CMD ["catalina.sh", "run"]
+FROM openjdk:8-jre-alpine
+COPY target/myproject1*.war /app.war
+CMD ["/usr/bin/java", "-jar", "/app.war"]
+//CMD ["catalina.sh", "run"]
