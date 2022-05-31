@@ -7,4 +7,4 @@
 FROM openjdk:8-jre-alpine
 COPY target/myproject1*.war /app.war
 CMD ["/usr/bin/java", "-jar", "/app.war"]
-//CMD ["catalina.sh", "run"]
+#CMD ["catalina.sh", "run"]
