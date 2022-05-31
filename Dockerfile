@@ -5,5 +5,5 @@
 # ENTRYPOINT ["java","-jar","/app.jar"]
 
 FROM tomcat
-COPY myproject1.war /usr/local/tomcat/webapps/
+COPY ROOT.war /usr/local/tomcat/webapps/
 CMD ["catalina.sh", "run"]
