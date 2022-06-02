@@ -41,7 +41,7 @@ jobs:
         with:
           login-server: san0802containerregi08.azurecr.io
           username: san0802containerregi08
-          password: 6aX4iq4pJQ9u8XduzV8YNdBPtolmA+Kn
+          password: i5Hh5R5Ps7AzBvpRZke=90HKFyj61xW6
 
       - name: Docker build and Push
         run: |
